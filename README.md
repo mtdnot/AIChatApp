@@ -80,3 +80,18 @@ AIチャットアプリの見た目での機能でWeb上でLive2dを動かせる
 ### 手順まとめ
 
 nmp run build ->CubismSdkForWeb-4-r.7をsrcフォルダにダウンロード
+
+## ChatGPTに必要なAPIKEY
+
+このWebアプリはChatGPTのAPIによってチャットできています。
+
+必要であれば、各々OpenAIからAPIKEY(取得は無料だが、利用は有料)を取得してください。
+
+#AIChatApp/src/App.js
+
+const openai = new OpenAI({ 
+        apiKey: 'APIKEY' ,
+        dangerouslyAllowBrowser: true 
+    })
+
+このAPIKEYにいれれば使用できるようになります。
