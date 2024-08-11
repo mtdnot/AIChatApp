@@ -1,5 +1,8 @@
 <img src="https://nishicomp.com/wp-content/uploads/2024/03/%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%83%E3%83%88-2024-08-12-080120-1024x576.png" alt="pc画面で見た画像" title="aichat">
 
+# 公開サイト
+https://chat.nishicomp.com
+
 ## キャラクター設定
 
 AIチャットアプリの見た目での機能でWeb上でLive2dを動かせるようにしています。
