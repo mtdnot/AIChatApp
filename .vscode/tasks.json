@@ -1,0 +1,13 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "npm",
+			"script": "start",
+			"path": "src/CubismSdkForWeb-4-r.7/Samples/TypeScript/Demo",
+			"problemMatcher": [],
+			"label": "npm: start - src/CubismSdkForWeb-4-r.7/Samples/TypeScript/Demo",
+			"detail": "webpack-cli serve --mode development"
+		}
+	]
+}

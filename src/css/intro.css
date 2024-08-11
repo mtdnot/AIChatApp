@@ -1,0 +1,52 @@
+.palette{
+    position:abosolute;
+    padding:100px
+    
+}
+html, body {
+    margin: 0;
+    overflow: hidden;
+    background-image: url(cyber.png);
+}
+.attribute {
+  position:absolute;
+  top:10px;
+  left:10px;
+  font-size:17px;
+	line-height:25px;
+	font-weight:bold;
+	color: transparent;
+	background: linear-gradient( 45deg, #73c3fb 0% 40%, #2496ed 60% 100% );
+	-webkit-background-clip: text;
+
+}
+
+.introduce {
+  position:absolute;
+  bottom:20px;
+  right:50px;
+	line-height:0.95em;
+	font-weight:bold;
+	color: transparent;
+	background: linear-gradient( 45deg, #2496ed 0% 40%, #73c3fb 60% 100% );
+	-webkit-background-clip: text;
+}
+.introduce span{
+  font-weight:bold;
+}
+#backtext{
+  position:absolute;
+  bottom:50px;
+  left:50px;
+  color: rgb(181, 181, 181);
+  font-size:15px;
+  width:500px;
+}
+
+#tmp_margin{
+  margin-top: 10px;
+}
+
+.text_type1{
+  color:rgb(89, 89, 89);
+}

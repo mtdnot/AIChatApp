@@ -1,0 +1,40 @@
+input[type="file"]:focus {
+    outline: 0;
+  }
+  .file-upload_area {
+    margin-bottom: 20px;
+    position: relative;
+    .file-upload_input {
+      margin-left: 10px;
+      &::before {
+        border-radius: 2px;
+        content: 'ファイルを選択';
+        font-size: 14px;
+        left: 0;
+        padding: 12px 12px;
+        position: absolute;
+        top: -8px;
+
+        -webkit-transform: skew(-15deg);
+        transform: skew(-15deg);
+        color: #fff;
+        border-radius: 0;
+        background-image: -webkit-gradient(linear, left top, right top, from(#009efd), to(#73c3fb));
+        background-image: -webkit-linear-gradient(left, #009efd 0%, #73c3fb 100%);
+        background-image: linear-gradient(90deg, #009efd 0%, #73c3fb 100%);
+        -webkit-box-shadow: 0 5px 10px rgba(0, 0, 0, .1);
+        box-shadow: 0 5px 10px rgba(0, 0, 0, .1);
+      }
+    }
+    input[type="file"]::-webkit-file-upload-button {
+      background: -webkit-gradient(linear, left top, left bottom, from(transparent), to(transparent));
+      background-color: transparent;
+      border: 0;
+      margin: 0 20px 0 0;
+    }
+  }
+ /*実質これが左側の最大サイズとなる、いやそんなことないかも*/
+  img{
+    max-width: 500px;
+    max-height: 350px;
+  }

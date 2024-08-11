@@ -1,0 +1,22 @@
+.live2dmodel{
+    width :1300px;
+    height:1300px;
+    position:absolute;
+    top:0px;
+    left:980px;    
+}
+
+.formsection{
+    position:absolute;
+    top:100px;
+    left:30px;
+    width:500px;
+    scale:1.0;
+}
+
+.answersection{
+    position:absolute;
+    top:60px;
+    left:660px;
+    scale:1.3;
+}
