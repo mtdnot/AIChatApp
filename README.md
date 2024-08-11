@@ -1,3 +1,30 @@
+## キャラクター設定
+
+AIチャットアプリの見た目での機能でWeb上でLive2dを動かせるようにしています。
+
+必要なものとしてCubismSdkForWeb-4-r.7があります。
+
+これをsrcフォルダに入れてもらうことで利用可能になります。
+
+### 手順まとめ
+
+nmp run build ->CubismSdkForWeb-4-r.7をsrcフォルダにダウンロード
+
+## ChatGPTに必要なAPIKEY
+
+このWebアプリはChatGPTのAPIによってチャットできています。
+
+必要であれば、各々OpenAIからAPIKEY(取得は無料だが、利用は有料)を取得してください。
+
+#AIChatApp/src/App.js
+
+const openai = new OpenAI({ 
+        apiKey: 'APIKEY' ,
+        dangerouslyAllowBrowser: true 
+    })
+
+このAPIKEYにいれれば使用できるようになります。
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -68,30 +95,3 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-
-## キャラクター設定
-
-AIチャットアプリの見た目での機能でWeb上でLive2dを動かせるようにしています。
-
-必要なものとしてCubismSdkForWeb-4-r.7があります。
-
-これをsrcフォルダに入れてもらうことで利用可能になります。
-
-### 手順まとめ
-
-nmp run build ->CubismSdkForWeb-4-r.7をsrcフォルダにダウンロード
-
-## ChatGPTに必要なAPIKEY
-
-このWebアプリはChatGPTのAPIによってチャットできています。
-
-必要であれば、各々OpenAIからAPIKEY(取得は無料だが、利用は有料)を取得してください。
-
-#AIChatApp/src/App.js
-
-const openai = new OpenAI({ 
-        apiKey: 'APIKEY' ,
-        dangerouslyAllowBrowser: true 
-    })
-
-このAPIKEYにいれれば使用できるようになります。
