@@ -27,6 +27,9 @@ const openai = new OpenAI({
 
 このAPIKEYにいれれば使用できるようになります。
 
+### 実際の解答例
+<img src="https://nishicomp.com/wp-content/uploads/2024/03/Screenshot-2024-03-13-09.43.09.jpg">
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
