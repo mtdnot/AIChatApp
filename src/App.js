@@ -8,8 +8,8 @@ import Live2dModel from './components/Live2dModel';
 
 const App = () => {
     const openai = new OpenAI({ 
-        apiKey: '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' ,
-        dangerouslyAllowBrowser: true //envに訂正しとけ//見せられないよ!
+        apiKey: 'APIKEY' ,
+        dangerouslyAllowBrowser: true 
     })
 
     const [newQuestion ,setNewQuestion] = useState('');
