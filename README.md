@@ -68,3 +68,15 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+##キャラクター設定
+
+AIチャットアプリの見た目での機能でWeb上でLive2dを動かせるようにしています。
+
+必要なものとしてCubismSdkForWeb-4-r.7があります。
+
+これをsrcフォルダに入れてもらうことで利用可能になります。
+
+###手順まとめ
+
+nmp run build ->CubismSdkForWeb-4-r.7をsrcフォルダにダウンロード
