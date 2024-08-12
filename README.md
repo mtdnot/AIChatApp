@@ -5,8 +5,10 @@
 <img src="https://img.shields.io/badge/Javascript-276DC3.svg?logo=javascript&amp;style=flat" height="30">
 <img src="https://img.shields.io/badge/-CSS3-1572B6.svg?logo=css3&amp;style=flat" height="30">
 <img src="https://img.shields.io/badge/-HTML5-333.svg?logo=html5&amp;style=flat" height="30">
+
 # 公開サイト
 https://chat.nishicomp.com
+
 ## カスタマイズ
 分かりづらいですが、拡大率を下げるとキャラクターの右上に歯車アイコンが出てきます。それをクリックすることで任意のキャラに変更可能です。
 
