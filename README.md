@@ -1,8 +1,6 @@
 <img src="https://nishicomp.com/wp-content/uploads/2024/03/%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%83%E3%83%88-2024-08-12-080120-1024x576.png" alt="pc画面で見た画像" title="aichat">
 
-<img src="https://img.shields.io/badge/-Amazon%20AWS-232F3E.svg?logo=amazon-aws&amp;style=flat" height="30">
-<img src="https://img.shields.io/badge/-Apache-D22128.svg?logo=apache&amp;style=flat" height="30">
-<img src="https://img.shields.io/badge/-Linux-6C6694.svg?logo=linux&amp;style=flat" height="30">
+# WEBアプリの主な使用技術
 <img src="https://img.shields.io/badge/-React-555.svg?logo=react&amp;style=flat" height="30">
 <img src="https://img.shields.io/badge/Javascript-276DC3.svg?logo=javascript&amp;style=flat" height="30">
 <img src="https://img.shields.io/badge/-CSS3-1572B6.svg?logo=css3&amp;style=flat" height="30">
